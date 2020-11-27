@@ -14,7 +14,7 @@ body {
     margin-top: 0;
     list-style: none;
     padding-left: 0;
-    text-align: right;
+    text-align: center;
     height: 50px;
 }
 
@@ -33,12 +33,16 @@ body {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(255,92,92);
+}
+
 img {
     width: 35vw;
 }
 
 #quem-somos {
-    background-color: gainsboro;
+    background-color: white;
     padding: 10vh 5vw;
     display: flex;
     justify-content: space-between;
@@ -54,28 +58,40 @@ img {
 }
 
 #nossos-produtos {
-    padding: 20vh 5vw;
+    background-color: gainsboro;
+    padding: 12vh 5vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #produtos {
+    margin-top: 12vh;
     display: flex;
 }
 
 #produtos article {
-    border-bottom: solid 1px;
     margin: 0 3vw;
+    padding: 1vw;
+    
+    background-color: white;
+    border-radius: 10px;
 }
 
 #produtos img {
     width: 15vw;
+    height: 10vw;
+}
+
+#produtos p {
+    width: 15vw;
 }
 
 #faq {
+    margin: auto;
+    width: 80vw;
     padding: 10vh 5vw;
-    background-color: gainsboro;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,15 +109,19 @@ img {
     margin-right: 2vw;
 }
 
-#contato {
-    padding: 10vh 5vw;
+#time {
     background-color: gainsboro;
+    padding: 15vh 5vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#time {
+#time h2 {
+    margin-bottom: 15vh;
+}
+
+#contato {
     padding: 10vh 5vw;
     display: flex;
     flex-direction: column;
@@ -119,11 +139,18 @@ iframe {
 }
 
 #mapa {
+    padding: 10vh 5vw;
+    background-color: gainsboro;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+}
+
+#mapa h2 {
+    
+    margin-bottom: 10vh;
 }
 
 button {
