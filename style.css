@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+img {
+    width: 35vw;
+}
+#quem-somos {
+    background-color: gainsboro;
+    padding: 10vh 5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#quem-somos h2 {
+    width: 40vw;
+}
+
+
+#quem-somos img {
+    width: 35vw;
+}
+
+#nossos-produtos {
+    padding: 20vh 5vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produtos {
+    display: flex;
+}
+
+#produtos article {
+    border-bottom: solid 1px;
+    margin: 0 3vw;
+}
+
+#produtos img {
+    width: 15vw;
+}
+
+#faq {
+    padding: 10vh 5vw;
+
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#faq article {
+    margin: 4vh 0;
+    
+    display: flex;
+    align-items: center;
+}
+
+#faq img {
+    height: 5vw;
+    width: 5vw;
+
+    margin-right: 2vw;
+}
