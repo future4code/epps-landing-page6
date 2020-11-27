@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 .navagation {
@@ -116,4 +118,14 @@ iframe {
     align-items: center;
 }
 
-#contato {}
+#mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+button {
+    margin-top: 20px;
+}
