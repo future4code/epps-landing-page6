@@ -2,13 +2,42 @@ body {
     margin: 0;
 }
 
+.navagation {
+    background-color: #2b2b2b;
+    color: white;
+    height: 50px;
+}
+
+.navagation ul {
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: right;
+    height: 50px;
+}
+
+.navagation li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 100;
+    color: gray;
+}
+
+.navagation a {
+    color: gray;
+    text-decoration: none;
+}
+
 img {
     width: 35vw;
 }
+
 #quem-somos {
     background-color: gainsboro;
     padding: 10vh 5vw;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,14 +47,12 @@ img {
     width: 40vw;
 }
 
-
 #quem-somos img {
     width: 35vw;
 }
 
 #nossos-produtos {
     padding: 20vh 5vw;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +73,6 @@ img {
 
 #faq {
     padding: 10vh 5vw;
-
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
@@ -55,7 +81,6 @@ img {
 
 #faq article {
     margin: 4vh 0;
-    
     display: flex;
     align-items: center;
 }
@@ -63,6 +88,32 @@ img {
 #faq img {
     height: 5vw;
     width: 5vw;
-
     margin-right: 2vw;
 }
+
+#contato {
+    padding: 10vh 5vw;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#time {
+    padding: 10vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    width: 30px;
+}
+
+iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contato {}
