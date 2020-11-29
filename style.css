@@ -75,6 +75,11 @@ img {
     padding: 1vw;
     background-color: white;
     border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 #produtos img {
@@ -86,14 +91,34 @@ img {
     width: 15vw;
 }
 
+#produtos button {
+    width: 10vw;
+    padding: 1vw;
+    color: white;
+    background-color: rgb(255, 92, 92);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#produtos button:hover {
+    
+    background-color: rgba(255, 92, 92, 0.9);
+}
+
 #faq {
     margin: auto;
     width: 80vw;
     padding: 10vh 5vw;
     background-color: white;
+}
+
+.subtitulo {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding-bottom: 10vh;
 }
 
 #faq article {
@@ -125,6 +150,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .icons {
@@ -155,22 +181,31 @@ button {
     margin-top: 20px;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 426px) {
+
     body {
         width: 100vw;
         height: 100vh;
         padding: 0;
         margin: 0;
     }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
     .navagation {
         width: auto;
     }
+
     .navagation ul {
         height: 20px;
         display: flex;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .navagation li {
         display: flex;
         justify-content: space-between;
@@ -179,18 +214,68 @@ button {
         font-weight: 50;
         padding: 5px;
     }
-    h2 {
-        font-size: 12px;
+
+    #quem-somos{
+        flex-direction: column-reverse;
+        text-align: center;
     }
-    #mapa {
-        width: 100%;
+
+    #quem-somos img {
+        width: 75vw;
     }
-    iframe {
-        width: 50%;
-        height: 200px;
+
+    #quem-somos h2{
+        width: 80vw;
     }
+
+
     #nossos-produtos {
         width: 90%;
         height: 150%;
+    }
+
+    #produtos {
+        flex-direction: column;
+    }
+
+    #produtos article {
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5vh;
+        padding: 3vh;
+    }
+
+    #produtos img {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #produtos p {
+        width: 70vw;
+    }
+
+    #produtos button {
+        width: 25vw;
+        height: 10vw;
+    }
+
+    #faq img {
+        display: none;
+    }
+
+    #time {
+        text-align: center;
+    }
+
+    #time img {
+        width: 60vw;
+        height: 30vw;
+    }
+
+    iframe {
+        width: 70%;
+        height: 200px;
     }
 }
