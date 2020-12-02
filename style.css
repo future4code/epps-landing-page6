@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navagation {
+    background-color: #2b2b2b;
+    color: white;
+    height: 50px;
+}
+
+.navagation ul {
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    height: 50px;
+}
+
+.navagation li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 100;
+    color: gray;
+}
+
+.navagation a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 92, 92);
+}
+
+img {
+    width: 35vw;
+}
+
+#quem-somos {
+    background-color: white;
+    padding: 10vh 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#quem-somos h2 {
+    width: 40vw;
+}
+
+#quem-somos img {
+    width: 35vw;
+}
+
+#nossos-produtos {
+    background-color: gainsboro;
+    padding: 12vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produtos {
+    margin-top: 12vh;
+    display: flex;
+}
+
+#produtos article {
+    margin: 0 3vw;
+    padding: 1vw;
+    background-color: white;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#produtos img {
+    width: 15vw;
+    height: 10vw;
+}
+
+#produtos p {
+    width: 15vw;
+}
+
+#produtos button {
+    width: 10vw;
+    padding: 1vw;
+    color: white;
+    background-color: rgb(255, 92, 92);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#produtos button:hover {
+    
+    background-color: rgba(255, 92, 92, 0.9);
+}
+
+#faq {
+    margin: auto;
+    width: 80vw;
+    padding: 10vh 5vw;
+    background-color: white;
+}
+
+.subtitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 10vh;
+}
+
+#faq article {
+    margin: 4vh 0;
+    display: flex;
+    align-items: center;
+}
+
+#faq img {
+    height: 5vw;
+    width: 5vw;
+    margin-right: 2vw;
+}
+
+#time {
+    background-color: gainsboro;
+    padding: 15vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#time h2 {
+    margin-bottom: 15vh;
+}
+
+#contato {
+    padding: 10vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icons {
+    width: 30px;
+}
+
+iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mapa {
+    padding: 10vh 5vw;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#mapa h2 {
+    margin-bottom: 10vh;
+}
+
+button {
+    margin-top: 20px;
+}
+
+@media (max-width: 426px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .navagation {
+        width: auto;
+    }
+
+    .navagation ul {
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .navagation li {
+        display: flex;
+        justify-content: space-between;
+        line-height: 10px;
+        font-size: 15px;
+        font-weight: 50;
+        padding: 5px;
+    }
+
+    #quem-somos{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #quem-somos img {
+        width: 75vw;
+    }
+
+    #quem-somos h2{
+        width: 80vw;
+    }
+
+
+    #nossos-produtos {
+        width: 90%;
+        height: 150%;
+    }
+
+    #produtos {
+        flex-direction: column;
+    }
+
+    #produtos article {
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5vh;
+        padding: 3vh;
+    }
+
+    #produtos img {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #produtos p {
+        width: 70vw;
+    }
+
+    #produtos button {
+        width: 25vw;
+        height: 10vw;
+    }
+
+    #faq img {
+        display: none;
+    }
+
+    #time {
+        text-align: center;
+    }
+
+    #time img {
+        width: 60vw;
+        height: 30vw;
+    }
+
+    iframe {
+        width: 70%;
+        height: 200px;
+    }
+}
